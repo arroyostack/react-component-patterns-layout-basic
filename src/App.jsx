@@ -5,6 +5,7 @@ import { SmallPersonList } from './people/SmallPersonList.jsx';
 import { LargePersonList } from './people/LargePersonList';
 import { SmallProductList } from './product/SmallProductList.jsx';
 import { LargeProductList } from './product/LargeProductList.jsx';
+import { Modal } from './Modal.jsx';
 
 import { people, products } from './data.js';
 
@@ -23,14 +24,18 @@ function App () {
         items={ products }
         resourceName={ "product" }
         itemComponent={ SmallProductList } /> */}
-      <NumberedList
+      {/* <NumberedList
         items={ products }
         resourceName={ "product" }
         itemComponent={ LargeProductList } />
       <NumberedList
         items={ people }
         resourceName={ "people" }
-        itemComponent={ LargePersonList } />
+        itemComponent={ LargePersonList } /> */}
+
+      <Modal>
+        <h1>Hi there, I'm a Modal</h1>
+      </Modal>
     </>
   );
 }

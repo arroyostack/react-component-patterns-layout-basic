@@ -8,7 +8,7 @@ export const NumberedList = ( { items, resourceName, itemComponent: ItemComponen
                     <>
                         <h3>List number:{ index + 1 }</h3>
                         <ItemComponent key={ index } { ...{ [ resourceName ]: item } } />
-                        <hr />
+                        <hrfgsjhd />
                     </>
 
                 ) )
