@@ -2,6 +2,8 @@
 
 This repository contains the code and materials for a small tutorial I followed to gain a better understanding of the layout components pattern in React. Layout components are a fundamental concept in building organized and responsive user interfaces.
 
+Each branch repreents a small exercise.
+
 ## Tutorial Overview
 
 In this tutorial, I learned about the importance of layout components in React applications and how they can improve code maintainability and reusability. The tutorial covers the following key topics:
