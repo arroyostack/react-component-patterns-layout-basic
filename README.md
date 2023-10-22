@@ -1,23 +1,17 @@
-# React Layout Components Tutorial
+[![JavaScript](https://img.shields.io/badge/JavaScript-ES6%2B-F7DF1E?style=flat-square&logo=javascript&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+[![React](https://img.shields.io/badge/React-16.x%2B-61DAFB?style=flat-square&logo=react&logoColor=white)](https://reactjs.org/)
+[![Vite](https://img.shields.io/badge/Vite-2.x%2B-646CFF?style=flat-square&logo=vite&logoColor=white)](https://vitejs.dev/)
 
-This repository contains the code and materials for a small tutorial I followed to gain a better understanding of the layout components pattern in React. Layout components are a fundamental concept in building organized and responsive user interfaces.
+## **Course Overview**
 
-Each branch repreents a small exercise.
+This course dives deep into React design patterns, which are proven, effective, and repeatable solutions to address common application development challenges. Whether you're a novice or an experienced developer, this course will equip you with the tools to write well-structured and maintainable code.
 
-## Tutorial Overview
+## **What You'll Learn**
 
-In this tutorial, I learned about the importance of layout components in React applications and how they can improve code maintainability and reusability. The tutorial covers the following key topics:
+In this course, Coding With Mr.M will guide you through a variety of essential React design patterns, including but not limited to:
 
-- **What Are Layout Components:** An introduction to layout components and their role in structuring the user interface of a React application.
-
-- **Creating a Basic Layout Component:** Step-by-step guide on how to create a simple layout component and integrate it into a React application.
-
-- **Responsive Design:** Exploring techniques for making layout components responsive to different screen sizes and devices.
-
-- **Reusable Layouts:** Discussing best practices for making layout components reusable across different parts of your application.
-
-
-# React + Vite
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Composition:** Learn how to create and utilize components effectively, allowing you to build modular and reusable UI elements.
+- **Higher-Order Components (HOCs):** Discover the power of HOCs to enhance component functionality and reusability, resulting in cleaner and more maintainable code.
+- **State Hoisting:** Gain an understanding of state hoisting, a technique that helps manage state in a more organized and efficient manner.
+- **Controlled vs. Uncontrolled Components:** Learn the key differences between controlled and uncontrolled components and when to use each for effective form and input component management.
+- **And many more patterns:** Explore a wide range of design patterns and best practices that will transform your React application into a well-organized and efficient codebase.
