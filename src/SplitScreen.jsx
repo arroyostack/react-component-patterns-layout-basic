@@ -1,4 +1,6 @@
 
+
+
 const SplitScreen = ( { children, leftWeigh = 1, rightWeigh = 1 } ) => {
     const [ left, right ] = children;
     return (

@@ -1,33 +1,41 @@
+import { RegularList } from './RegularList.jsx';
+import { NumberedList } from './NumberedList';
+
+import { SmallPersonList } from './people/SmallPersonList.jsx';
+import { LargePersonList } from './people/LargePersonList';
+import { SmallProductList } from './product/SmallProductList.jsx';
+import { LargeProductList } from './product/LargeProductList.jsx';
+import { Modal } from './Modal.jsx';
+
+import { people, products } from './data.js';
+
 import './App.css';
-import SplitScreen from './SplitScreen';
 
-export const LeftSideScreen = ( { name } ) => {
-
-  return <h1>{ name ? name : <h1>Hi there Left</h1> }</h1>;
-
-};
-
-export const RightSideScreen = ( { message } ) => {
-
-  return <h1>{ message ? message : <h1>Hi there Right</h1> }</h1>;
-};
 
 function App () {
   return (
     <>
-      <SplitScreen
-        leftWeigh={ 2 }
-        rightWeigh={ 1 }>
+      {/* <RegularList
+        items={ people }
+        resourceName={ "people" }
+        itemComponent={ SmallPersonList } />
 
-        <LeftSideScreen
-          name="Valeria"
-        />
+      <RegularList
+        items={ products }
+        resourceName={ "product" }
+        itemComponent={ SmallProductList } /> */}
+      {/* <NumberedList
+        items={ products }
+        resourceName={ "product" }
+        itemComponent={ LargeProductList } />
+      <NumberedList
+        items={ people }
+        resourceName={ "people" }
+        itemComponent={ LargePersonList } /> */}
 
-        <RightSideScreen
-          message={ "Hi I'm Valeria!" }
-        />
-
-      </SplitScreen>
+      <Modal>
+        <h1>Hi there, I'm a Modal</h1>
+      </Modal>
     </>
   );
 }
